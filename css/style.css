@@ -1,0 +1,344 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+footer .container .privacy_policy .policy_text, footer .container .nav_box, article .container .eight .title .app, article .container .eight, article .container .seven, article .container .six .title .app, article .container .six, article .container .five .title .app, article .container .five, article .container, main .container .four .partners_icon .icon_block, main .container .four .partners_icon, main .container .three, main .container .one, main .container, header .container nav .nav_box_right, header .container nav .nav_box_left, header .container nav {
+  display: flex;
+  flex-direction: row;
+}
+
+footer .container .nav_box .item_link, main .container .one .title .app {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 0 120px;
+}
+header .container {
+  max-width: 2560px;
+  margin: 0 auto;
+}
+header .container nav {
+  justify-content: space-between;
+}
+header .container nav .nav_box_left {
+  align-items: center;
+  gap: 30px;
+}
+header .container nav .nav_box_left a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+header .container nav .nav_box_left a:hover {
+  color: lightslategrey;
+}
+header .container nav .nav_box_right {
+  align-items: center;
+  gap: 30px;
+}
+header .container nav .nav_box_right a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+header .container nav .nav_box_right a:hover {
+  color: lightslategrey;
+}
+header .container nav .nav_box_right button {
+  width: 131px;
+  height: 48px;
+  font-size: 18px;
+  flex-shrink: 0;
+  border-radius: 48px;
+  border: 1px solid #000;
+  background: white;
+  cursor: pointer;
+  margin: 15px 0;
+}
+header .container nav .nav_box_right button:hover {
+  color: lightslategrey;
+  border-color: lightslategrey;
+}
+header .container nav .burger_menu {
+  display: none;
+}
+
+.hr_line {
+  max-width: 2560px;
+  height: 1px;
+  background-color: lightblue;
+}
+
+main {
+  padding: 0 120px;
+}
+main .container {
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+main .container .one {
+  align-items: end;
+  gap: 50px;
+}
+main .container .one .title .text {
+  width: 480px;
+}
+main .container .one .title .text .play_icon {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+main .container .one .title .text h1 {
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 50.4px;
+  margin: 33px 0 23px;
+}
+main .container .one .title .text p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.92px;
+  margin-bottom: 13px;
+}
+main .container .one .title .app {
+  align-items: start;
+  gap: 20px;
+}
+main .container .one .img {
+  margin-top: 40px 0 97px;
+}
+main .container .two {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 50px;
+}
+main .container .two .title {
+  width: 450px;
+  margin-top: 200px;
+}
+main .container .two .title h2 {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.2px;
+  margin-bottom: 22px;
+}
+main .container .two .title p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.92px;
+  margin-bottom: 12px;
+}
+main .container .three {
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+main .container .three .title {
+  gap: 50px;
+  width: 520px;
+}
+main .container .three .title h2 {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.2px;
+  margin-bottom: 22px;
+}
+main .container .three .title p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.92px;
+  margin-bottom: 12px;
+}
+main .container .three .title_two {
+  width: 584px;
+  text-align: center;
+  margin-top: 30px;
+}
+main .container .three .title_two h2 {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.2px;
+  margin-bottom: 22px;
+}
+main .container .three .title_two p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.92px;
+}
+main .container .three .title_two button {
+  width: 237px;
+  height: 48px;
+  border-radius: 48px;
+  border: 1px solid black;
+  background: white;
+  margin: 46px 0 60px;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+}
+main .container .three .title_two button:hover {
+  color: lightslategrey;
+  border-color: lightslategrey;
+}
+main .container .four {
+  margin: 0 auto;
+}
+main .container .four .partners_icon {
+  gap: 100px;
+}
+main .container .four .partners_icon .icon_block {
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+main .container .four .partners_icon .icon_block a:hover {
+  transform: scale(1.5);
+  transition: all 0.5s ease;
+}
+
+article {
+  padding: 50px 120px;
+}
+article .container {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin: 0 auto;
+}
+article .container .five {
+  justify-content: center;
+  align-items: center;
+}
+article .container .five .title {
+  width: 480px;
+}
+article .container .five .title h2 {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.2px;
+}
+article .container .five .title p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.92px;
+  margin: 22px 0 28px;
+}
+article .container .five .title .app {
+  gap: 20px;
+}
+article .container .six {
+  justify-content: center;
+  align-items: center;
+}
+article .container .six .title {
+  width: 480px;
+}
+article .container .six .title h2 {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.2px;
+  margin-bottom: 22px;
+}
+article .container .six .title p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.92px;
+  margin-bottom: 12px;
+}
+article .container .six .title .app {
+  gap: 20px;
+}
+article .container .seven {
+  justify-content: center;
+  align-items: center;
+}
+article .container .seven .title {
+  width: 480px;
+}
+article .container .seven .title h2 {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.2px;
+  margin-bottom: 22px;
+}
+article .container .seven .title p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.92px;
+  margin-bottom: 12px;
+}
+article .container .eight {
+  justify-content: center;
+  align-items: center;
+}
+article .container .eight .title {
+  width: 480px;
+}
+article .container .eight .title h2 {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.2px;
+  margin-bottom: 22px;
+}
+article .container .eight .title p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.92px;
+  margin-bottom: 12px;
+}
+article .container .eight .title .app {
+  margin-top: 32px;
+  gap: 20px;
+}
+
+footer {
+  padding: 0 120px;
+}
+footer .container .nav_box {
+  justify-content: space-between;
+}
+footer .container .nav_box .item_link p {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 33px;
+}
+footer .container .nav_box .item_link a {
+  color: black;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+footer .container .nav_box .item_link a img {
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid black;
+  padding: 10px;
+}
+footer .container .nav_box .item_link a:hover {
+  color: lightslategrey;
+}
+footer .container .privacy_policy {
+  padding: 55px 0;
+}
+footer .container .privacy_policy .policy_text {
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container .privacy_policy .policy_text p {
+  color: #AAA;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
